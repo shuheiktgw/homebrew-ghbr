@@ -2,10 +2,10 @@ require 'formula'
 
 class Ghbr < Formula
   homepage 'https://github.com/shuheiktgw/ghbr'
-  version 'v0.0.4'
+  version 'v0.0.5'
 
-  url 'https://github.com/shuheiktgw/ghbr/releases/download/v0.0.4/ghbr_v0.0.4_darwin_amd64.zip'
-  sha256 '2148ae08ce24395dc1d3a44ef54ae1d2ab9b8d024a6c9f8ad925ccdf5f526197'
+  url 'https://github.com/shuheiktgw/ghbr/releases/download/v0.0.5/ghbr_v0.0.5_darwin_amd64.zip'
+  sha256 'fc38e34639cc15a81630e28cc55bebdb011d7ffe2cea8a6e0021c9ea99a82efc'
 
   def install
     bin.install 'ghbr'
